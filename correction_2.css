@@ -1,0 +1,213 @@
+body {
+
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    margin: 0px;
+
+}
+
+/* header*/
+.headerstyle {
+    background-color:  rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.logo {
+    width: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.bouton {
+    padding: 10px;
+    margin: 3px;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgb(90, 92, 90);
+    margin-left: 3px;
+    align-items: center;
+}
+
+/*main*/
+.backgroundimage {
+    background-image: url(photo/anda_A2.webp);
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    position: relative;
+
+}
+
+.presentation {
+    color: rgb(16, 16, 16);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 3px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 5px;
+    align-items: center;
+    font-size: 29px;
+}
+
+.article {
+    align-items: center;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+.image1 {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.imagestyle {
+    margin: 10px;
+    position: relative;
+}
+
+.titre1 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(90, 92, 90);
+    padding: 20px;
+    position: absolute;
+    bottom: -40px;
+    right: 20px;
+    align-items: center;
+    font-size: 29px;
+    z-index: 10;
+}
+
+.texte1 {
+    font-size: 14px;
+    background-color: rgb(90, 92, 90);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    align-items: center;
+    margin: 10px;
+    padding-top: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    top: -20px;
+
+}
+
+.mainformulaire {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+
+}
+
+.formulaire {
+    flex-basis: 50%;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    box-sizing: border-box;
+    
+
+}
+
+.case {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 3px;
+    border-color: rgb(216, 216, 216);
+    border: 1px solid grey;
+    padding: 9px;
+    margin-top: 10px;
+}
+
+input[type=submit] {
+    width: 56%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(192, 15, 15);
+    padding: 15px;
+    font-family: 'Roboto';
+    border-radius: 3px;
+    margin: 5px;
+    width: 100%;
+
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(1920, 15, 15);
+}
+
+.calendar {
+    border: 0px;
+}
+
+textarea {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 3px;
+    border-color: rgb(216, 216, 216);
+    border: 1px solid grey;
+    padding: 9px;
+    margin-top: 10px;
+    color: rgb(148, 148, 148);
+    padding-bottom: 100px;
+    
+}
+
+select {
+    background-color: rgb(243, 241, 241);
+    width: 100%;
+    border-radius: 3px;
+    border-color: rgb(216, 216, 216);
+    border: 1px solid grey;
+    padding: 9px;
+    margin-top: 10px;
+    box-sizing: content-box;
+}
+
+
+
+/*footer*/
+
+.footerstyle {
+    background-color: rgb(192, 15, 15);
+    height: 100px;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.footerlinks {
+
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.puce {
+    list-style-type: none;
+    margin-left: 10px;
+
+}
+
+a {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+    .mainformulaire {
+        flex-direction: column;
+
+    }
+}

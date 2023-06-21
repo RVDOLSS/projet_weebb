@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correction Contact</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="correction_2.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="headerstyle">
+        <img src="photo/anda_A1.webp" class="logo" alt="">
+        <nav>
+            <a href="index.html" class="bouton">ACCUEIL</a>
+            <a href="formulaire_correction.html" class="bouton">FORMULAIRE</a>
+        </nav>
+    </header>
+
+             <div class="backgroundimage">
+                <h1 class="presentation">Contact</h1>
+            </div>
+        <main>
+ <form method="get" action="mail.php">  
+            <div class="mainformulaire">
+
+
+                <div class="formulaire">
+                    <label for="prenom">Prénom</label><br>
+                    <input class="case" type="text" name="prenom" placeholder="Ton Prénom" id="prenom">
+                    <br> <br>
+                    <label for="nom">Nom</label>
+                    <br>
+                    <input class="case" type="text" name="nom" placeholder="Ton Nom" id="nom">
+                    <br><br>
+                    <label for="mail">Mail</label><br>
+                    <input class="case" type="text" name="mail" placeholder="Ton Mail" id="mail">
+                    <br>
+                    <br>
+                    <label for="message">Qui est tu...</label><br>
+                    <select name="perso" id="multiples">
+                        <option value="perso" selected>Vous</option>
+                        <option value="Mémoires images">Le Chat</option>
+                    </select>
+                    <br><br>
+                    <p>Ton Matos</p>
+                    <input type="" id="" name="">
+                    <label for="">Vélo</label><br>
+                    <input type="" id="" name="">
+                    <label for="">Voiture</label><br>
+                    <input type="" id="" name="">
+                    <label for="">Bateau
+                </div>
+
+                <div class="formulaire">
+
+                    <label for="calendar">Dispo</label><br>
+                    <input class="case" type="date" name="calendar" id="calendar" />
+
+                    <br> <br>
+                    <label for="message">Ton message</label><br>
+                    <textarea id="message" name="message" placeholder="votre message..."></textarea>
+
+                    <br><br>
+                    <p>Ton niveau</p>
+                    <input type="radio" id="niv1"
+                    name="niv" value="debut" checked>
+                   <label for="niv1">dodo</label>
+               <br>
+                   <input type="radio" id="niv2"
+                    name="niv" value="inter">
+                   <label for="niv2">BBBBB</label>
+               <br>
+                   <input type="radio" id="niv3"
+                    name="niv" value="avance">
+                   <label for="niv3">CCCCC</label>
+                    
+
+                </div>
+
+
+
+
+
+                <input type="submit" value="Envoyer ta demande inscription">
+
+
+            </div>
+
+        </main>
+    </form>
+
+    <footer>
+        <div class="footerstyle">
+            <ul class="footerlinks">
+                <li>&copy; Correction Rv Dols </li>
+                <li class="puce"> <a href="index.html">ACCUEIL</a></li>
+                <li class="puce"> <a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

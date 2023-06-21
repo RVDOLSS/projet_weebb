@@ -1,0 +1,73 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  background-color: #ffffff;
+
+}
+
+
+.coins-arrondis-top {
+  border: 10px 10px 0px 0px;
+}
+
+.coins-arrondis-botton {
+  border: 0px 0px 10px 10px;
+}
+
+.container {
+  display: flex;
+}
+
+.positioned {
+  position: static;
+  background-color: #ffffff;
+}
+
+img.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(245, 244, 244);
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.sectionClass {
+  padding: 10px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+
+}
+
+.box {
+  display: flex-start;
+}
+
+input 
+{ 
+border:2px  #cccccc; 
+ font-size:20px; 
+ border-radius:20px; 
+} 
+input:invalid 
+{ 
+background-color: #b40b0b; 
+}
+
